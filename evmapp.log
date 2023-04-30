@@ -1,0 +1,144 @@
+2023-04-28T10:49:03.023+02:00  INFO 1104 --- [main] c.h.evm.evmApplication.dao.RoleDaoTest   : Starting RoleDaoTest using Java 19.0.1 with PID 1104 (started by corsl in C:\Users\corsl\Dropbox\Development\evmApplication\evmApplication)
+2023-04-28T10:49:03.046+02:00  INFO 1104 --- [main] c.h.evm.evmApplication.dao.RoleDaoTest   : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T10:49:04.221+02:00  INFO 1104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28T10:49:04.391+02:00  INFO 1104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157 ms. Found 5 JPA repository interfaces.
+2023-04-28T10:49:05.154+02:00  INFO 1104 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28T10:49:05.242+02:00  INFO 1104 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-28T10:49:05.829+02:00  INFO 1104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28T10:49:05.836+02:00  WARN 1104 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-28T10:49:06.379+02:00  INFO 1104 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b0e031b
+2023-04-28T10:49:06.382+02:00  INFO 1104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28T10:49:06.477+02:00  INFO 1104 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-28T10:49:08.836+02:00  INFO 1104 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28T10:49:08.850+02:00  INFO 1104 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T10:49:10.181+02:00  WARN 1104 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28T10:49:10.781+02:00  INFO 1104 --- [main] c.h.evm.evmApplication.dao.RoleDaoTest   : Started RoleDaoTest in 8.318 seconds (process running for 10.007)
+2023-04-28T10:49:11.283+02:00  INFO 1104 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T10:49:11.288+02:00  INFO 1104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28T10:49:11.300+02:00  INFO 1104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-28T12:56:50.685+02:00  INFO 5288 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Starting UserDaoTest using Java 19.0.1 with PID 5288 (started by corsl in C:\Users\corsl\Dropbox\Development\evmApplication\evmApplication)
+2023-04-28T12:56:50.689+02:00  INFO 5288 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T12:56:51.870+02:00  INFO 5288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28T12:56:52.027+02:00  INFO 5288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 5 JPA repository interfaces.
+2023-04-28T12:56:52.724+02:00  INFO 5288 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28T12:56:52.832+02:00  INFO 5288 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-28T12:56:53.373+02:00  INFO 5288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28T12:56:53.379+02:00  WARN 5288 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-28T12:56:53.874+02:00  INFO 5288 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d40498a
+2023-04-28T12:56:53.876+02:00  INFO 5288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28T12:56:53.975+02:00  INFO 5288 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-28T12:56:56.320+02:00  INFO 5288 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28T12:56:56.332+02:00  INFO 5288 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T12:56:57.541+02:00  WARN 5288 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28T12:56:58.100+02:00  INFO 5288 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Started UserDaoTest in 7.94 seconds (process running for 9.455)
+2023-04-28T12:56:58.547+02:00  INFO 5288 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T12:56:58.550+02:00  INFO 5288 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28T12:56:58.561+02:00  INFO 5288 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-28T14:20:24.123+02:00  INFO 10460 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Starting UserDaoTest using Java 19.0.1 with PID 10460 (started by corsl in C:\Users\corsl\Dropbox\Development\evmApplication\evmApplication)
+2023-04-28T14:20:24.125+02:00  INFO 10460 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:20:25.280+02:00  INFO 10460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28T14:20:25.412+02:00  INFO 10460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 5 JPA repository interfaces.
+2023-04-28T14:20:26.085+02:00  INFO 10460 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28T14:20:26.184+02:00  INFO 10460 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-28T14:20:26.717+02:00  INFO 10460 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28T14:20:26.723+02:00  WARN 10460 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-28T14:20:27.231+02:00  INFO 10460 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d40498a
+2023-04-28T14:20:27.234+02:00  INFO 10460 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28T14:20:27.328+02:00  INFO 10460 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-28T14:20:29.849+02:00  INFO 10460 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28T14:20:29.863+02:00  INFO 10460 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T14:20:31.068+02:00  WARN 10460 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28T14:20:31.638+02:00  INFO 10460 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Started UserDaoTest in 8.05 seconds (process running for 9.581)
+2023-04-28T14:20:32.096+02:00  INFO 10460 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T14:20:32.099+02:00  INFO 10460 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28T14:20:32.117+02:00  INFO 10460 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-28T14:36:37.166+02:00  INFO 15288 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Starting UserDaoTest using Java 19.0.1 with PID 15288 (started by corsl in C:\Users\corsl\Dropbox\Development\evmApplication\evmApplication)
+2023-04-28T14:36:37.171+02:00  INFO 15288 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:36:38.306+02:00  INFO 15288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28T14:36:38.445+02:00  INFO 15288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 5 JPA repository interfaces.
+2023-04-28T14:36:39.182+02:00  INFO 15288 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28T14:36:39.274+02:00  INFO 15288 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-28T14:36:39.821+02:00  INFO 15288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28T14:36:39.827+02:00  WARN 15288 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-28T14:36:40.329+02:00  INFO 15288 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d40498a
+2023-04-28T14:36:40.331+02:00  INFO 15288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28T14:36:40.428+02:00  INFO 15288 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-28T14:36:42.868+02:00  INFO 15288 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28T14:36:42.880+02:00  INFO 15288 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T14:36:44.104+02:00  WARN 15288 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28T14:36:44.677+02:00  INFO 15288 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Started UserDaoTest in 8.026 seconds (process running for 9.54)
+2023-04-28T14:36:45.115+02:00  INFO 15288 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T14:36:45.118+02:00  INFO 15288 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28T14:36:45.130+02:00  INFO 15288 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-28T14:45:05.874+02:00  INFO 16840 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Starting UserDaoTest using Java 19.0.1 with PID 16840 (started by corsl in C:\Users\corsl\Dropbox\Development\evmApplication\evmApplication)
+2023-04-28T14:45:05.876+02:00  INFO 16840 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:45:06.994+02:00  INFO 16840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28T14:45:07.121+02:00  INFO 16840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 5 JPA repository interfaces.
+2023-04-28T14:45:07.860+02:00  INFO 16840 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28T14:45:07.955+02:00  INFO 16840 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-28T14:45:08.488+02:00  INFO 16840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28T14:45:08.494+02:00  WARN 16840 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-28T14:45:09.012+02:00  INFO 16840 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f95d64d
+2023-04-28T14:45:09.015+02:00  INFO 16840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28T14:45:09.108+02:00  INFO 16840 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-28T14:45:11.427+02:00  INFO 16840 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28T14:45:11.441+02:00  INFO 16840 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T14:45:12.618+02:00  WARN 16840 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28T14:45:13.183+02:00  INFO 16840 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Started UserDaoTest in 7.824 seconds (process running for 9.326)
+2023-04-28T14:45:13.655+02:00  INFO 16840 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T14:45:13.658+02:00  INFO 16840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28T14:45:13.669+02:00  INFO 16840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-28T14:52:34.114+02:00  INFO 14424 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Starting UserDaoTest using Java 19.0.1 with PID 14424 (started by corsl in C:\Users\corsl\Dropbox\Development\evmApplication\evmApplication)
+2023-04-28T14:52:34.117+02:00  INFO 14424 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:52:35.231+02:00  INFO 14424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28T14:52:35.353+02:00  INFO 14424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 5 JPA repository interfaces.
+2023-04-28T14:52:36.033+02:00  INFO 14424 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28T14:52:36.127+02:00  INFO 14424 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-28T14:52:36.654+02:00  INFO 14424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28T14:52:36.660+02:00  WARN 14424 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-28T14:52:37.177+02:00  INFO 14424 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e4894d
+2023-04-28T14:52:37.180+02:00  INFO 14424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28T14:52:37.269+02:00  INFO 14424 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-28T14:52:39.508+02:00  INFO 14424 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28T14:52:39.526+02:00  INFO 14424 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T14:52:40.761+02:00  WARN 14424 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28T14:52:41.314+02:00  INFO 14424 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Started UserDaoTest in 7.711 seconds (process running for 9.23)
+2023-04-28T14:52:41.801+02:00  INFO 14424 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T14:52:41.805+02:00  INFO 14424 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28T14:52:41.816+02:00  INFO 14424 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-28T15:03:28.500+02:00  INFO 7372 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Starting UserDaoTest using Java 19.0.1 with PID 7372 (started by corsl in C:\Users\corsl\Dropbox\Development\evmApplication\evmApplication)
+2023-04-28T15:03:28.502+02:00  INFO 7372 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:03:29.640+02:00  INFO 7372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28T15:03:29.757+02:00  INFO 7372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 5 JPA repository interfaces.
+2023-04-28T15:03:30.487+02:00  INFO 7372 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28T15:03:30.575+02:00  INFO 7372 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-28T15:03:31.191+02:00  INFO 7372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28T15:03:31.197+02:00  WARN 7372 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-28T15:03:31.722+02:00  INFO 7372 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52d7ab79
+2023-04-28T15:03:31.725+02:00  INFO 7372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28T15:03:31.819+02:00  INFO 7372 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-28T15:03:34.396+02:00  INFO 7372 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28T15:03:34.409+02:00  INFO 7372 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T15:03:35.618+02:00  WARN 7372 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28T15:03:36.192+02:00  INFO 7372 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Started UserDaoTest in 8.223 seconds (process running for 9.812)
+2023-04-28T15:03:36.788+02:00  INFO 7372 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T15:03:36.791+02:00  INFO 7372 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28T15:03:36.802+02:00  INFO 7372 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-28T15:04:11.246+02:00  INFO 13472 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Starting UserDaoTest using Java 19.0.1 with PID 13472 (started by corsl in C:\Users\corsl\Dropbox\Development\evmApplication\evmApplication)
+2023-04-28T15:04:11.249+02:00  INFO 13472 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:04:12.488+02:00  INFO 13472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28T15:04:12.627+02:00  INFO 13472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 5 JPA repository interfaces.
+2023-04-28T15:04:13.341+02:00  INFO 13472 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28T15:04:13.432+02:00  INFO 13472 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-28T15:04:13.971+02:00  INFO 13472 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28T15:04:13.977+02:00  WARN 13472 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-28T15:04:14.491+02:00  INFO 13472 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a96d639
+2023-04-28T15:04:14.494+02:00  INFO 13472 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28T15:04:14.582+02:00  INFO 13472 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-28T15:04:17.091+02:00  INFO 13472 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28T15:04:17.105+02:00  INFO 13472 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T15:04:18.276+02:00  WARN 13472 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28T15:04:18.825+02:00  INFO 13472 --- [main] c.h.evm.evmApplication.dao.UserDaoTest   : Started UserDaoTest in 8.088 seconds (process running for 9.869)
+2023-04-28T15:04:19.337+02:00  INFO 13472 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T15:04:19.340+02:00  INFO 13472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28T15:04:19.351+02:00  INFO 13472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
