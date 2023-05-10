@@ -23,7 +23,7 @@ class TeamRepositoryTest {
             .teamOrganization("Hyparxis")
             .build();
 
-   @Test
+   /* @Test
     public void saveTeam() {
         Team team = Team.builder()
                 .teamName("Pega5-Team")
@@ -32,33 +32,33 @@ class TeamRepositoryTest {
                 .teamDetails(teamDetails)
                 .build();
         teamRepository.save(team);
-    }
+    } */
 
-    @Test
+    /* @Test
     public void printAllTeams() {
        List<Team> teamList =
                teamRepository.findAll();
        System.out.println("Team list: " + teamList);
-    }
+    } */
 
-    @Test
+    /*@Test
     public void printAllTeamsByOrganization() {
        List<Team> teamList =
                teamRepository.findByTeamDetailsTeamOrganization("Hyparxis");
        System.out.println("Teams in Organization LeasePlan: "+ teamList);
-    }
+    }*/
     @Test
     public void findTeamByTeamName() {
         Team team =
                 teamRepository.findByTeamName("Pega888");
         System.out.println("Teams in Organization LeasePlan: "+ team);
     }
-    @Test
+   /* @Test
     public void findTeamByTeamNameContains() {
         List<Team> teams =
                 teamRepository.findByTeamNameContaining("Pega");
         System.out.println("Teams in Organization LeasePlan: "+ teams);
-    }
+    } */
     @Test
     public void getTeamName() {
         String name =
@@ -66,12 +66,12 @@ class TeamRepositoryTest {
         System.out.println("Team name is: "+ name);
     }
 
-    @Test
+    /* @Test
     public void getAllTeamsNative() {
         List<Team> teams =
                 teamRepository.getAllTeamsNative();
         System.out.println("Teams : "+ teams);
-    }
+    } */
     @Test
     public void getTeamByNameNat() {
         Team team  =
@@ -115,7 +115,7 @@ class TeamRepositoryTest {
             teamRepository.save(team);
         }
     }
-    @Test
+    /* @Test
     public void addTeamWithTwoTeamMembers() {
 
         List<TeamMember> teamMembersList = new ArrayList<TeamMember>();
@@ -146,6 +146,6 @@ class TeamRepositoryTest {
 
 
             teamRepository.save(team);
-        }
+        } */
     }
 

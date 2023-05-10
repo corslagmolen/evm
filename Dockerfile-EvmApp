@@ -1,0 +1,5 @@
+FROM openjdk:19
+COPY . /opt
+WORKDIR /opt
+ENV TZ="Europe/Amsterdam"
+ENTRYPOINT ["java", "-jar", "./docker/evmApplication-0.0.1-SNAPSHOT.jar"]

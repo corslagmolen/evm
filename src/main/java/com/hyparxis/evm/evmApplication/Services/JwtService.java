@@ -1,10 +1,13 @@
 package com.hyparxis.evm.evmApplication.Services;
 
+import com.hyparxis.evm.evmApplication.Controllers.AuthenticationController;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +21,8 @@ import java.util.function.Function;
 public class JwtService {
 
     private static final String SECRET_KEY = "6B59703373367639792442264529482B4D6251655468576D5A7134743777217A";
+
+    private final Logger LOGGER = LoggerFactory.getLogger(AuthenticationController.class);
 
     public String extractUsername(String jwtToken) {
         return extractClaim(jwtToken, Claims::getSubject);
@@ -34,6 +39,7 @@ public class JwtService {
     public String generateJwtToken(
             Map<String, Object> extraClaims,
             UserDetails userDetails) {
+        LOGGER.info("Inside generateJwtToken  date is:" + new Date(System.currentTimeMillis()) );
         return Jwts
                 .builder()
                 .setClaims(extraClaims)
@@ -42,6 +48,7 @@ public class JwtService {
                 .setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 * 24))
                 .signWith(getSignInKey(), SignatureAlgorithm.HS256)
                 .compact();
+
     }
     public boolean isJwtTokenValid(String jwtToken, UserDetails userDetails) {
         final String userName = extractUsername(jwtToken);
