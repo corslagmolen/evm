@@ -1,0 +1,30 @@
+version: '2'
+services:
+  mysqldb:
+    container_name: mysqldb
+    image: "mysql:8.0"
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: cor
+      MYSQL_PASSWORD: Password123
+      MYSQL_DATABASE: evm
+    networks:
+      evm-mysql-net:
+  evmservice:
+    container_name: evm-service
+    restart: on-failure
+    build:
+      dockerfile: Dockerfile-EvmApp
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysqldb
+    networks:
+      evm-mysql-net:
+    volumes:
+      - .m2:/root/.m2
+networks:
+    evm-mysql-net:
