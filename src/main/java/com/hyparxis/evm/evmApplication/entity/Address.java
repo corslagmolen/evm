@@ -34,8 +34,8 @@ public class Address {
             optional = true
     )
     @JoinColumn(
-            name = "team_member_id",
-            referencedColumnName = "memberId")
-    private TeamMember teamMember;
+            name = "id",
+            referencedColumnName = "id")
+    private User user;
 
 }

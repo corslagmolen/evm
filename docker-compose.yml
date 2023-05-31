@@ -2,7 +2,7 @@ version: '2'
 services:
   mysqldb:
     container_name: mysqldb
-    image: "mysql:8.0"
+    image: "mysql"
     restart: always
     ports:
       - "3306:3306"
@@ -15,6 +15,8 @@ services:
       evm-mysql-net:
   evmservice:
     container_name: evm-service
+    environment:
+      - spring.datasource.url=jdbc:mysql://mysqldb:3306/evm?allowPublicKeyRetrieval=true
     restart: on-failure
     build:
       dockerfile: Dockerfile-EvmApp
