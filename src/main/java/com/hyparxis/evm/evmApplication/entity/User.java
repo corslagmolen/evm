@@ -31,7 +31,7 @@ public class User implements UserDetails {
     @Enumerated(EnumType.STRING)
     private Role role;
     @OneToOne(
-            mappedBy = "teamMember"
+            mappedBy = "user"
     )
     private Address address;
 
@@ -66,8 +66,17 @@ public class User implements UserDetails {
         return true;
     }
 
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
     @Override
     public boolean isEnabled() {
         return true;
     }
+
 }
