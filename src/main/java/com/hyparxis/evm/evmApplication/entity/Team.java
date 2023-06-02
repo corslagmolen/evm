@@ -49,14 +49,4 @@ public class Team {
     @Embedded
     private TeamDetails teamDetails;
 
-    @OneToMany(
-            cascade = CascadeType.ALL,
-            fetch = FetchType.LAZY
-    )
-    @JoinColumn(
-            name = "team_id",
-            referencedColumnName = "teamId"
-    )
-    private List<TeamMember> teamMembers;
-
 }
